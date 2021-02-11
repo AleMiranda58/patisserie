@@ -1,0 +1,40 @@
+header {
+  .menu-bar-pc {
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    padding: 0 2.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 5.875rem;
+    border-bottom: 1px solid $gris-claro;
+    background-color: $blanco;
+
+    .logo {
+      max-width: 3.125rem;
+    }
+
+    .menu-principal {
+      a {
+        padding: 0 0.5625rem;
+      }
+    }
+
+    .top-redes {
+      a {
+        padding: 0 0.5625rem;
+      }
+    }
+  }
+}
+
+.menu-bar-movil {
+  display: none;
+}
+
+.main {
+  margin-top: 5.875rem;
+}
